@@ -13,4 +13,4 @@ function printInfora(pearson: Pearson): void{
         `Datos Personales:\nNombre:${pearson.name}\nEdad:${pearson.age}`
     )
 }
-printInfora({name:"Dicxie", age: 20, sex: Sexo.Masculino });
+printInfora({name:"Dicxie", age: 20, sex: SexoP.Masculino });
