@@ -11,4 +11,17 @@ let numero2 :number = 40; // flotante
 //declaraciones boolenas 
 let apagado: boolean = true;
 let isOld: boolean = false;
+// Object
+interface Persona {
+    name:string;
+    age:number;
+    sexo:string;
+}
 
+let obj1:Persona;
+let obj3:{name:string; age:number;sexo:string};
+// declaracion de arreglos 
+let textos:string[];
+let booleanos:boolean[];
+
+obj1 = obj3;
