@@ -6,7 +6,7 @@ let mensaje: string = `en TypeScript puede Utilizar las comillas doble, comilla 
 //declaracion de Number 
 let numero1 :number = 7; // entero
 let flotante :number = 20.3; // flotante
-let numero2 :number = 40; // flotante
+let numero2 :number = 40; // entero
 
 //declaraciones boolenas 
 let apagado: boolean = true;
@@ -21,7 +21,8 @@ interface Persona {
 let obj1:Persona;
 let obj3:{name:string; age:number;sexo:string};
 // declaracion de arreglos 
-let textos:string[];
+let libros:string[] ;
 let booleanos:boolean[];
+let numeros:number[];
 
 obj1 = obj3;
